@@ -1,0 +1,410 @@
+body {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+li {
+	list-style-type: none;
+ }
+
+ ul {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+a {
+	color: #F36F21;
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	display: block;
+}
+
+img {
+	width:100%;
+}
+
+.innerWrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.mainNav {
+	background-color: #F36F21;
+}
+
+.mobileMenu {
+		display: none;
+	}
+
+.mainNav li {
+	float: left;
+	border-left: 1px solid #E5651B;
+	list-style-type: none;
+	padding: 20px 0;
+}
+
+.mainNav li a {
+	padding: 14px 30px;
+	color: #fff;
+	margin: 0 10px;
+	text-transform: uppercase;
+}
+
+.mainNav li a.active {
+	background-color: #fff;
+	color: #108240;
+	border-radius: 5px;
+}
+
+.main {
+	background: url("../images/main_bg.jpg") no-repeat center bottom #8AABC3;
+}
+
+.main .innerWrapper {
+	background-color: #fff;
+}
+
+.leftCol {
+	width: 580px;
+	float: left;
+	margin-left: 20px;
+}
+
+.rightCol {
+	margin-left: 30px;
+	width: 300px;
+	float: left;
+}
+
+.imgBlock {
+	padding:  10px;
+	border: 1px solid #eee;
+}
+
+.name {
+	color: #138708;
+}
+
+.content {
+	padding: 20px 0;
+	line-height: 22px;
+	font-size: 12px;
+}
+
+.col {
+	float: left;
+}
+
+.twoCols .col {
+	width: 48%;
+	min-height: 41px;
+	margin-bottom: 30px;
+}
+
+.twoCols .col:first-child {
+	margin-right: 20px;
+}
+
+.events,
+.news {
+	padding: 20px 20px 20px 40px;
+	margin: 0;
+}
+
+.events {
+	background: url("../images/calendar.jpg") no-repeat 20px center #E1E1E1;
+}
+
+.news {
+	background: url("../images/news.jpg") no-repeat 10px center #E1E1E1;
+}
+
+.highlight {
+	color: #FF5F00;
+}
+
+.eventDesc {
+	padding: 10px;
+	background-color: #eee;
+	border-top: 1px solid #ccc;
+	color: #2B2B2B;
+}
+
+.eventDesc img,
+.eventDesc p,
+.tweetDesc img,
+.tweetDesc p {
+	float: left;
+}
+
+.eventDesc img {
+	width: 40px;
+}
+
+.tweetDesc img {
+	width: 40px;
+}
+
+.eventDesc p,
+.tweetDesc p {
+	padding: 0 0 0 50px;
+	margin-top: -32px;
+	font-size: 12px;
+}
+
+.eventDesc span,
+.tweetDesc span {
+	display: block;
+	font-style: italic;
+	color: #aaa;
+}
+
+.viewAll {
+	color: #828282;
+	background: url("../images/chevron.png") no-repeat right center;
+	float: right;
+	padding: 0 10px 0 0;
+	text-transform: uppercase;
+}
+
+.linkModule ,
+.galleryModule,
+.tweetModule {
+	margin-bottom: 10px;
+	min-height: 50px;
+}
+
+.tweetModule ul {
+	margin-top: 20px;
+}
+
+.tweetModule li {
+	padding-bottom: 10px;
+}
+.rightCol h3 {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.linkModule li:first-child {
+	border: none;
+}
+
+.linkModule li {
+	border-top: 1px solid #F5F5F5;
+	padding: 5px 0;
+}
+
+.link {
+	background: url("../images/chevron_grey.png") no-repeat left center;
+	padding-left: 10px;
+	color: #aaa;
+	font-size: 13px;
+}
+
+.galleryModule li {
+	float: left;
+	margin: 10px 10px 0 0 ;
+}
+
+.galleryModule li img {
+	width: 33px;
+}
+
+.socialBar {
+	float: right;
+}
+
+.socialBar .icon {
+	background: url("../images/social_icon.png") no-repeat left top;
+	width: 27px;
+	height: 27px;
+	display: block;
+	text-indent: -9999px;
+}
+
+.icon.tweet {
+	background-position: left top;
+}
+
+.icon.fb {
+	background-position: -39px top;
+}
+
+.icon.youtube {
+	background-position: right top;
+}
+
+.footer {
+	background-color: #1E8C4C;
+	padding: 20px 0;
+}
+
+.footerNav li {
+	float: left;
+	padding: 0 10px;
+}
+
+.footerNav li a,
+.socialBar li a {
+	font-size: 12px; 
+	color: #fff;
+}
+
+.socialBar li {
+	float: left;
+	padding: 0 0 10px 10px;
+}
+
+.copywrite {
+	color: #fff;
+	font-size: 10px;
+	text-align: center;
+	border-top: 1px solid #168344;
+	padding-top: 20px;
+	clear: both;
+}
+
+.searchModule {
+	margin: 20px 0 0 0;
+}
+
+.searchModule input[type="text"]{
+	border: 1px solid #ccc;
+	height: 19px;
+	margin: 0;
+	padding: 0;
+}
+
+.searchModule input[type="submit"]{
+	background: url("../images/search.jpg") no-repeat left top;
+	border: none;
+	text-indent: -9999px;
+	width: 22px;
+	height: 19px;
+}
+
+@media only screen and (max-width: 960px){
+	.innerWrapper {
+		width: 900px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.innerWrapper {
+		width: 748px;
+		margin: 0 auto;
+	}
+
+		.mainNav li a {
+		padding: 14px 18px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.innerWrapper {
+		width: 400px;
+		margin: 0 auto;
+	}
+
+	.mainNav ul {
+		margin: 0;
+		padding: 0;
+	}
+	.mainNav li {
+		float: none;
+		border-bottom: 1px solid #E5651B;
+		border-left: none;
+		padding: 15px;
+	}
+
+	.mainNav li a {
+		padding: 8px 12px;
+		font-size: 12px;
+	}
+
+	.leftCol,
+	.rightCol {
+		width: 280px;
+		margin-left: 0;
+		padding: 0 20px;
+	}
+
+	.twoCols .col {
+		width: 100%;
+	}
+
+	.socialBar {
+		margin: 0 auto;
+		width: 166px;
+		float: none;
+	}
+
+	.footerNav li a, .socialBar li a {
+		margin: 12px;
+	}
+
+	.searchModule input[type="text"] {
+		width: 200px;
+	}
+}
+
+
+@media only screen and (max-width: 320px) {
+	.innerWrapper {
+		width: 300px;
+		margin: 0 auto;
+	}
+
+	.mobileMenu {
+		display: block;
+		background-color: #F36F21;
+		padding: 15px;
+		
+	}
+
+	.mobileMenu a {
+		text-transform: uppercase;
+		color: #fff;
+		padding-left: 10px;
+		display: block;
+	}
+
+	.mainNav { 
+		display: none;
+	}
+
+	.footer .leftCol,
+	.footer .rightCol {
+		width: 300px;
+	}
+
+	.footer li {
+		float: none;
+		padding: 10px 0 0 0;
+		text-align: center;
+	}
+
+	.socialBar li {
+		width: 48px;
+		margin: 0 auto;
+	}
+
+	.socialBar li a {
+		margin: 5px;
+	}
+}
