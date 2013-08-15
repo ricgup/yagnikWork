@@ -143,25 +143,16 @@ img {
 }
 
 .eventDesc img,
-.eventDesc p,
-.tweetDesc img,
-.tweetDesc p {
+.tweetDesc img {
+	width: 40px;
+	display: block;
 	float: left;
 }
 
-.eventDesc img {
-	width: 40px;
-}
-
-.tweetDesc img {
-	width: 40px;
-}
-
 .eventDesc p,
 .tweetDesc p {
-	padding: 0 0 0 50px;
-	margin-top: -32px;
 	font-size: 12px;
+	margin-left: 50px;
 }
 
 .eventDesc span,
